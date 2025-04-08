@@ -42,4 +42,4 @@ then
     done
 fi
 
-cat | wine64 bedrock_server_mod.exe
+cat | iconv -f UTF-8 -t ISO-8859-1 | wine64 bedrock_server_mod.exe
